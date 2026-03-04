@@ -19,7 +19,7 @@ export const resumeData = {
       title: "VerifiX",
       description: "AI-powered KYC system automating identity verification with high precision.",
       tech: ["React", "Node.js", "FastAPI", "EasyOCR"],
-      image: "src/assets/p1.png", // Place your images in the public/images folder
+      image: "/images/p1.png", // Place your images in the public/images folder
       github: "https://github.com/kris2005mehra/AI-Powered_Identity_Verification_and_Fraud_Detection_for_KYC_Compliance",
       link: "https://github.com/kris2005mehra/AI-Powered_Identity_Verification_and_Fraud_Detection_for_KYC_Compliance"
     },
@@ -27,7 +27,7 @@ export const resumeData = {
       title: "Ayaskriti",
       description: "AI-driven LCA sustainability platform for measuring environmental footprint.",
       tech: ["Python", "Machine Learning", "React", "Data Visualization"],
-      image: "src/assets/p2.png",
+      image: "/images/p2.png",
       github: "https://github.com/kris2005mehra/Ayaskriti_LCA",
       link: "https://kris2005mehra.github.io/Ayaskriti_LCA/",
     },
@@ -35,7 +35,7 @@ export const resumeData = {
       title: "Library Management",
       description: "Modern, scalable system for managing institutional assets and lending.",
       tech: ["React", "TypeScript", "Vite", "Tailwind"],
-      image: "src/assets/p3.png",
+      image: "/images/p3.png",
       github: "https://github.com/kris2005mehra/LibraryMS?tab=readme-ov-file",
       link: "https://aesthetic-madeleine-ce3680.netlify.app",
     }
