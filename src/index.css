@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* High-intensity text glow for better readability over 3D backgrounds */
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.8), 0 0 20px rgba(0, 102, 255, 0.6);
+  }
+
+  /* Neon Blue Image/Box Glow */
+  .box-glow-blue {
+    box-shadow: 0 0 30px rgba(34, 211, 238, 0.6), inset 0 0 20px rgba(34, 211, 238, 0.3);
+  }
+
+  /* Scanline effect for the profile container */
+  .scanline-overlay {
+    background: linear-gradient(
+      rgba(18, 16, 16, 0) 50%,
+      rgba(0, 255, 255, 0.05) 50%
+    );
+    background-size: 100% 4px;
+    z-index: 40;
+    pointer-events: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00020a; /* Darker base for AI theme */
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fira Code', monospace;
+}
+
+/* --- CYBER ORB SCROLLBAR (Circular/Semi-Circle) --- */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2); 
+  margin-block: 20px; /* Keeps the orb from touching screen edges */
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  /* The "Circle" Effect */
+  background: #22d3ee; 
+  border: 4px solid rgba(0, 0, 0, 0); /* Invisible border "shrinks" the thumb to an orb */
+  background-clip: padding-box;
+  border-radius: 999px;
+  
+  /* Neon glow for the scroll thumb */
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.8), 
+              inset 0 0 5px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+  box-shadow: 0 0 25px rgba(34, 211, 238, 1);
+}
+
+/* --- ANIMATIONS --- */
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 15px rgba(34, 211, 238, 0.4); }
+  50% { box-shadow: 0 0 35px rgba(34, 211, 238, 0.8); }
+  100% { box-shadow: 0 0 15px rgba(34, 211, 238, 0.4); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s infinite ease-in-out;
+}
+
+/* Custom Scanline Pulse for AI Image */
+@keyframes scanlineMove {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(400%); }
+}
+
+.scan-laser {
+  height: 2px;
+  width: 100%;
+  background: #22d3ee;
+  box-shadow: 0 0 15px #22d3ee;
+  position: absolute;
+  z-index: 50;
+  opacity: 0.6;
+  animation: scanlineMove 4s linear infinite;
+}
