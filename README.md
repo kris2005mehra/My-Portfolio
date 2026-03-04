@@ -33,7 +33,6 @@ A sleek, interactive developer portfolio built with **React**, **Tailwind CSS** 
 
 <img width="1470" height="794" alt="Screenshot 2026-03-04 at 7 54 19 AM" src="https://github.com/user-attachments/assets/6b1c41e5-093f-43e5-acf1-398ad48bd0a0" />
 
-<img width="1470" height="775" alt="Screenshot 2026-03-04 at 7 54 33 AM" src="https://github.com/user-attachments/assets/a2b6f9c5-569e-4e85-9e9a-bc552874819d" />
 
 
 
