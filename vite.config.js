@@ -5,5 +5,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000
+  },
+  preview: {
+    allowedHosts: [
+      'my-portfolio-main-7732244.kuberns.cloud'
+    ]
   }
 });
