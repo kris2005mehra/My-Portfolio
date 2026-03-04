@@ -1,16 +1,39 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, interactive developer portfolio built with **React**, **Tailwind CSS** and **Framer Motion**. Showcases projects, experience, skills, achievements, education and contact information in a modern, responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **About / Hero Section**  
+- **Education Section**  
+- **Projects Portfolio**  
+- **Experience Timeline**  
+- **Skills Showcase**  
+- **Achievements Section**  
+- **Contact Form / Info**  
+- Responsive design for all screen sizes  
+- Smooth animations and transitions  
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 18**  
+- **Tailwind CSS**  
+- **Framer Motion**  
+- **Vite**  
+
+---
+
+## Screenshots
+
+<img width="1470" height="829" alt="Screenshot 2026-03-04 at 7 54 04 AM" src="https://github.com/user-attachments/assets/8110f765-5afa-4120-a278-26371e21b25a" />
+
+<img width="1470" height="794" alt="Screenshot 2026-03-04 at 7 54 19 AM" src="https://github.com/user-attachments/assets/6b1c41e5-093f-43e5-acf1-398ad48bd0a0" />
+
+<img width="1470" height="775" alt="Screenshot 2026-03-04 at 7 54 33 AM" src="https://github.com/user-attachments/assets/a2b6f9c5-569e-4e85-9e9a-bc552874819d" />
+
+
+
