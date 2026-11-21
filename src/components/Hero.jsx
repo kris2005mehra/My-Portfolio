@@ -108,15 +108,14 @@ export default function Hero() {
               className="absolute inset-[-25px] rounded-full border-2 border-dashed border-cyan-400/50"
             />
             
-            <div className="w-full h-full rounded-full border-[6px] border-cyan-400 overflow-hidden relative bg-black 
-                            shadow-[0_0_60px_rgba(34,211,238,0.8),inset_0_0_30px_rgba(34,211,238,0.4)]">
+            <div className="w-full h-full rounded-full border-[6px] border-cyan-400 overflow-hidden relative bg-white 
+                            shadow-[0_0_60px_rgba(34,211,238,0.8)]">
                <img 
                  src={profileImg} 
                  alt="Profile" 
-                 className="w-full h-full object-cover relative z-10 opacity-100 brightness-110"
+                 className="w-full h-full object-cover relative z-10 opacity-100 brightness-105"
                  onError={(e) => { e.target.style.display = 'none'; }}
                />
-               <div className="absolute inset-0 shadow-[inset_0_0_100px_rgba(0,0,0,1)] z-30" />
             </div>
           </div>
         </motion.div>

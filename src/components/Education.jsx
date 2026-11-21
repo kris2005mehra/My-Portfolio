@@ -8,7 +8,7 @@ export default function Education() {
       degree: "B.Tech in Computer Science and Business Systems",
       inst: "Narula Institute of Technology",
       loc: "West Bengal, India",
-      grade: "8.25",
+      grade: "8.23",
       date: "2021 — 2027 (Expected)",
       status: "CURRENT_PHASE"
     },
